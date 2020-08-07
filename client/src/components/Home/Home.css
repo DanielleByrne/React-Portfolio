@@ -1,7 +1,16 @@
-
-
 Link {
-    color: black;
-    text-decoration: none;
-    background-color: transparent;
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
 }
+.aboutPage {
+  height: 25% !important;
+  width: 40% !important;
+  float: left !important;
+  margin: 10px !important;
+}
+
+.card-body{
+    justify-content: center;
+}
+

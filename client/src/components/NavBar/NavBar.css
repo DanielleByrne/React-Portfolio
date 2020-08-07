@@ -1,0 +1,26 @@
+
+.navbar-light .navbar-brand {
+    color: whitesmoke !important;
+    font-family: "Merriweather", serif;
+    text-shadow: 1px 1px 2px grey;
+    font-weight: bold;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: whitesmoke !important;
+    text-align: right;
+    text-shadow: 1px 1px 2px grey;
+    font-weight: bold;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px grey;
+    font-weight: bold;
+  }
+  .bg-light {
+    background-color: #fec89a!important;
+}

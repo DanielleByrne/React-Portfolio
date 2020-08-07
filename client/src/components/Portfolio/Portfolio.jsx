@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "./Portfolio.css";
 
 class Portfolio extends Component {
   render() {
@@ -47,7 +48,7 @@ class Portfolio extends Component {
                     <div className="col-5">
                       <img
                         className="portfolio-image"
-                        src="./assets/password_generated.jpeg"
+                        src="../../assets/password_generated.jpeg"
                         alt="generated random password"
                       />
                     </div>
@@ -94,6 +95,96 @@ class Portfolio extends Component {
                         <br />
                         <Link
                           href="https://jaredp17.github.io/gt-project-1/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Deployed Application
+                        </Link>
+                        <br />
+                      </div>
+                    </div>
+                  </li>
+                  <li className="media">
+                    <div className="col-5">
+                      <img
+                        className="portfolio-image"
+                        src="./assets/budget-example.png"
+                        alt="example budget with purchases and deductions"
+                      />
+                    </div>
+                    <div className="col-7">
+                      <div className="media-body">
+                        <h5 className="mt-0 mb-1">Budget Tracker</h5>
+                        <Link
+                          href="https://github.com/DanielleByrne/gt-offline-budget-tracker"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          GitHub Repository
+                        </Link>
+                        <br />
+                        <Link
+                          href="https://infinite-shelf-29750.herokuapp.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Deployed Application
+                        </Link>
+                        <br />
+                      </div>
+                    </div>
+                  </li>
+                  <li className="media">
+                    <div className="col-5">
+                      <img
+                        className="portfolio-image"
+                        src="./assets/burgerpage.png"
+                        alt="example budget with purchases and deductions"
+                      />
+                    </div>
+                    <div className="col-7">
+                      <div className="media-body">
+                        <h5 className="mt-0 mb-1">Eat-Da-Burger</h5>
+                        <Link
+                          href="https://github.com/DanielleByrne/gt-eat-da-burger-hw"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          GitHub Repository
+                        </Link>
+                        <br />
+                        <Link
+                          href="https://github.com/DanielleByrne/gt-eat-da-burger-hw"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Deployed Application
+                        </Link>
+                        <br />
+                      </div>
+                    </div>
+                  </li>
+                  <li className="media">
+                    <div className="col-5">
+                      <img
+                        className="portfolio-image"
+                        src="./assets/Stats.png"
+                        alt="example budget with purchases and deductions"
+                      />
+                    </div>
+                    <div className="col-7">
+                      <div className="media-body">
+                        <h5 className="mt-0 mb-1">Workout Tracker</h5>
+                        <Link
+                          href="https://github.com/DanielleByrne/gt-hw-nosql-fitness-tracker"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          GitHub Repository
+                        </Link>
+                        <br />
+                        <Link
+                          href="https://warm-bastion-30552.herokuapp.com/?id=5f202e46e272a20017864230"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

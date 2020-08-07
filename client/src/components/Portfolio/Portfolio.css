@@ -1,0 +1,7 @@
+.portfolio-image {
+  margin: 10px;
+  height: 70%;
+  width: 70%;
+  background-clip: padding-box;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}

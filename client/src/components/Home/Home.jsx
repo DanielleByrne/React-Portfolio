@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-
+import "./Home.css"
 class Home extends Component {
   render() {
     return (
       <div class="container">
         <div class="row top-div"></div>
         <div class="col-md-5">
-          <div class="card">
+          <div class="card mx-auto">
             <div class="card-body">
-              <h1>About Me</h1>
+              <h1>Home</h1>
               <hr />
               <img
-                class="about-image"
-                src="assets/About Image.jpeg"
+                className="aboutPage"
+                src="../../assets/About-Image.jpeg"
                 alt="placeholder"
               />
               <p>
